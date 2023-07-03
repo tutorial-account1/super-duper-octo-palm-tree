@@ -1840,14 +1840,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:0.2.7":
-  version: 0.2.7
-  resolution: "@uniwebcms/express@npm:0.2.7"
+"@uniwebcms/express@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@uniwebcms/express@npm:0.5.0"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
     "@react-google-maps/api": ^2.17.1
-    "@uniwebcms/module-sdk": ^1.6.1
+    "@uniwebcms/module-sdk": ^1.6.2
     flowbite-react: ^0.4.9
     react-icons: ^4.6.0
     react-spinners: ^0.13.8
@@ -1855,7 +1855,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: a83686fcf90d984e7b1d04c0eeb87ed4ce0f79ed1296e492aa673411f0b74a0170ceabb6694f77b4b05fc533750bcceb490b52bf80c10dd290abc1f8f6dbb010
+  checksum: 6cf930133f354051a266ff863ec1b0364d46331a14065d0cffe9de6e329d8e69bb9d413f856bef523a1c85168c59530ad02a83cf569a2a4760fd6b987d944994
   languageName: node
   linkType: hard
 
@@ -1902,6 +1902,22 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
   checksum: 26d2dff96bc3223199a49a4405d724ece3e82eeaf539324bc1f347d6aeac110136b53a1f45b6e61d4e3e098dea6f0b7b874bb55ffca2abf768c28bc03dc8fae5
+  languageName: node
+  linkType: hard
+
+"@uniwebcms/module-sdk@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "@uniwebcms/module-sdk@npm:1.6.2"
+  dependencies:
+    "@headlessui/react": ^1.7.3
+    "@popperjs/core": ^2.10.1
+    "@react-google-maps/api": ^2.17.1
+    react-icons: ^4.6.0
+    tailwind-merge: ^1.13.2
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 0ca6669d706fe13c2724a8c2f50201e2ee55c2242c5fc6296b2d27d27852d4a344e840b460f11c5896c17ace5f63086303183752ae43956a2231ba08ceddc46f
   languageName: node
   linkType: hard
 
@@ -5469,7 +5485,7 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": 0.2.7
+    "@uniwebcms/express": ^0.5.0
     "@uniwebcms/module-sdk": ^1.6.1
     react: ^18.2.0
     react-dom: ^18.2.0
